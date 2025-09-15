@@ -21,7 +21,7 @@ export const techStack = [
         name: "TypeScript",
         description: "Typed superset of JavaScript that adds optional static types for safer, more maintainable code.",
         active: false,
-        level: 50,
+        level: 75,
     },
     {
         name: "Tailwind",
@@ -39,7 +39,7 @@ export const techStack = [
         name: "React",
         description: "JavaScript library for building fast, interactive user interfaces using reusable components.",
         active: false, 
-        level: 50
+        level: 75
     },
     {
         name: "Git",
