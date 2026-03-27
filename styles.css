@@ -861,6 +861,7 @@ hr {
     width: 100%;
     color: rgb(64, 0, 64);
     outline-color: purple;
+    border-radius: 0.5rem;
 }
 
 .name-and-email-contact {
