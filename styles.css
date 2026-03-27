@@ -271,7 +271,7 @@ body {
 }
 
 .profile-picture {
-    width: 280px;
+    width: 300px;
     height: auto;
     border-radius: 50%;
 }
@@ -635,13 +635,14 @@ hr {
     box-shadow: 0 4px 24px rgba(128, 0, 128, 0.5);
     animation: imageGlow 4800ms ease infinite alternate;
     border-radius: 1rem;
-    transition: all 600ms ease 150ms;
+    transition: all 450ms ease 150ms;
+    cursor: pointer;
 }
 
 .project-image:hover {
     box-shadow: none;
     border-radius: 0;
-    transform: scale(1.0625);
+    transform: scale(1.025);
     box-shadow: 0 4px 16px rgba(16, 0, 16, 0.125);
 }
 

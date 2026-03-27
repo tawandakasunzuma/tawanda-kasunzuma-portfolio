@@ -27,13 +27,13 @@ export const techStack = [
         name: "Tailwind",
         description: "Utility-first CSS framework for quickly designing responsive and modern user interfaces.",
         active: false,
-        level: 75
+        level: 100
     },
     {
         name: "Bootstrap",
         description: "Popular front-end framework with prebuilt components for building responsive websites easily.",
         active: false,
-        level: 50
+        level: 75
     },
     {
         name: "React",
@@ -57,6 +57,6 @@ export const techStack = [
         name: "Figma",
         description: "Cloud-based design tool for creating UI/UX prototypes and collaborating in real-time.",
         active: false,
-        level: 75
+        level: 100
     }
 ]
