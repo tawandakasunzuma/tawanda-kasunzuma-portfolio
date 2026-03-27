@@ -517,8 +517,8 @@ main {
 .icons-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  width: 100%;
+  gap: 1rem;
+  width: 87.5%;
   justify-content: center;
 }
 

@@ -278,7 +278,7 @@ toggle.addEventListener("click", () => {
     toggle.innerHTML = "<p style='cursor: pointer;'>↑ View Current</p>";
   } else {
     // Switch back to current
-    institution.textContent = "Shaper";
+    institution.textContent = "Shaper (The Digital Academy)";
     role.textContent = "Full-Stack Developer Intern";
     duration.textContent = "October 2025 - Present";
 
