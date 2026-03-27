@@ -67,7 +67,7 @@ export const techStack = [
   {
     name: "Spring Boot",
     description:
-      "Framework for building production-ready Java applications and RESTful APIs بسرعة and efficiently.",
+      "Java framework used to build scalable, production-ready backend applications and RESTful APIs quickly and efficiently.",
     active: false,
     level: 50,
   },
