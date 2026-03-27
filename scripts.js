@@ -255,3 +255,35 @@ overlayLinks.forEach((link) => {
     }, delay);
   });
 });
+
+/* ====================
+  TOGGLE TECH JOURNEY
+==================== */
+
+const toggle = document.getElementById("timelineToggle");
+
+const institution = document.getElementById("institution");
+const role = document.getElementById("role");
+const duration = document.getElementById("duration");
+
+let showingCurrent = true;
+
+toggle.addEventListener("click", () => {
+  if (showingCurrent) {
+    // Switch to previous
+    institution.textContent = "CodeSpace (CPT)";
+    role.textContent = "Full Time Student";
+    duration.textContent = "February 2025 - August 2025";
+
+    toggle.innerHTML = "<p style='cursor: pointer;'>↑ View Current</p>";
+  } else {
+    // Switch back to current
+    institution.textContent = "Shaper";
+    role.textContent = "Full-Stack Developer Intern";
+    duration.textContent = "October 2025 - Present";
+
+    toggle.innerHTML = "<p style='cursor: pointer;'>↓ View Previous</p>";
+  }
+
+  showingCurrent = !showingCurrent;
+});

@@ -397,6 +397,28 @@ main {
     line-height: 2;
 }
 
+.hidden {
+  display: none;
+}
+
+.timeline-toggle {
+  text-align: center;
+  font-weight: 600;
+  transition: 300ms ease all;
+  margin-top: 1rem;
+}
+
+.timeline-toggle:hover,
+.timeline-toggle:focus {
+    transform: translateY(-2px);
+    opacity: 0.875;
+}
+
+.timeline-toggle:active {
+    opacity: 0.75;
+    transform: scale(0.975);
+}
+
 .about-container-heading {
     font-size: 0.75rem;
     text-transform: uppercase;
